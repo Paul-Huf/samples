@@ -1,0 +1,15 @@
+<div class="main-content">
+  <div class="banner">
+    <h2>
+      Verify e-mail
+    </h2>
+  </div>
+  <div class="card signin-card">
+    <div class="circle-mask">
+      <canvas id="canvas" class="circle" width="96" height="96"></canvas>
+    </div>
+    <input id="Email" type="email" value="{{email}}" spellcheck="false" name="Email" placeholder="Enter your email" autofocus="" />
+    <input (click)="verifyEmail()" id="Verify" name="signIn" class="rc-button rc-button-submit" type="button" value="Verify" />
+  </div>
+</div>
+
